@@ -8,7 +8,7 @@ class Message(Model):
     message: str
 
 # Specifying the address of the gemini ai agent
-Gemini_Address = "agent1qwg20ukwk97t989h6kc8a3sev0lvaltxakmvvn3sqz9jdjw4wsuxqa45e8l" # replace your Gemini API key here
+Gemini_Address = "agent1qwg20ukwk97t989h6kc8a3sev0lvaltxakmvvn3sqz9jdjw4wsuxqa45e8l" # replace your Gemini agent address here
 
 # Defining the user agent with specific configuration details
 user = Agent(
